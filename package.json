@@ -4,7 +4,7 @@
   "description": "An application to model an address book in Node",
   "main": "index.js",
   "scripts": {
-    "test": "echo.> app.js"
+    "test": ""export NODE_ENV=test && jasmine""
   },
   "author": "",
   "license": "ISC",
