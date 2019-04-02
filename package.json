@@ -4,10 +4,12 @@
   "description": "An application to model an address book in Node",
   "main": "index.js",
   "scripts": {
-    "test": ""export NODE_ENV=test && jasmine""
+    "test": "set NODE_ENV=test&& jasmine"
   },
   "author": "",
   "license": "ISC",
+  "dependencies": {
+  "inquirer": "^6.2.2" },
   "repository": {
     "type": "git",
     "url": "(app.js)"
