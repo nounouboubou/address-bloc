@@ -54,6 +54,10 @@
      process.exit();
    }
    
+   getContactCount(){
+		return this.contacts.length;
+   }
+   
    getDate()
    {
 	    var today = new Date();
