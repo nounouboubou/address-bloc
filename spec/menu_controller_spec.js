@@ -7,7 +7,6 @@
 	
    describe("#getContactCount()", () => {
 
-// #2
      it("should return 0 when no contacts are in the book", () => {
        expect(this.menu.getContactCount()).toBe(0);
 
@@ -18,4 +17,11 @@
 
     });
    });
+   
+   describe("#remindMe()", () => {
+	   it("should return a string containing Learning is a life-long poursuit", () => {
+       expect(this.menu.remindMe()).toBe("Learning is a life-long poursuit");
+
+     });
+   });	   
  });

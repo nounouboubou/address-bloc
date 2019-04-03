@@ -10,6 +10,7 @@
         choices: [
           "Add new contact",
 		  "Get date and time",
+		  "Remind Me!",
           "Exit"
         ]
       }
@@ -29,6 +30,9 @@
 			break;
          case "Exit":
            this.exit();
+		 case " Remind Me !"
+		   this.remindMe();
+		   break;
          default:
            console.log("Invalid input");
            this.main();
@@ -101,8 +105,11 @@
 
 		console.log(today + " Current Time : "+hour + prepand + " : " + minute + " : " + second);
 
-
-
+   }
+   
+   remindMe()
+   {
+	   return "Learning is a life-long poursuit";
    }
  }
  
