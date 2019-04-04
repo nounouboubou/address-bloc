@@ -100,7 +100,9 @@
 			  prepand=' AM';
 			} 
 		} 
-
+		
+		this.main();
+		
 		today = mm + '/' + dd + '/' + yyyy;
 
 		console.log(today + " Current Time : "+hour + prepand + " : " + minute + " : " + second);

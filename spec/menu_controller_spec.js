@@ -18,10 +18,11 @@
     });
    });
    
-   describe("#remindMe()", () => {
+      describe("#remindMe()", () => {
 	   it("should return a string containing Learning is a life-long poursuit", () => {
        expect(this.menu.remindMe()).toBe("Learning is a life-long poursuit");
 
      });
-   });	   
+   });	
+    
  });
