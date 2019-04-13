@@ -3,8 +3,8 @@ const Contact = require("../db/models").Contact;
 
 module.exports = class ContactController {
 
-  constructor(){}
-       this.contacts = [];
+  constructor(){
+    this.contacts = [];
 	   this.addContactQuestions = [
        {
          type: "input",
@@ -29,7 +29,7 @@ module.exports = class ContactController {
 		   validate(val) {
 			   return val !=="";
 		   }
-	   }
+	   }]
 	   this.showContactQuestions = [
       {
         type: "list",
@@ -49,7 +49,6 @@ module.exports = class ContactController {
         message: "are you sure you want to delete this contact?"
       }
     ];
-     ];
 }
 
    addContact(name, phone, email){
@@ -105,4 +104,4 @@ module.exports = class ContactController {
     })
     }
 	
-	
+}
